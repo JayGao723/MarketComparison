@@ -1,0 +1,72 @@
+.page {
+  min-height: 100%;
+  background: #f7faf8;
+  padding-bottom: 72px;
+  color: #123c2d;
+}
+
+.page-hero {
+  background: #e8f4ee;
+  padding: 36px 0 28px;
+}
+
+.page-wrap {
+  width: min(1296px, calc(100% - 48px));
+  margin: 0 auto;
+}
+
+.breadcrumb {
+  color: #6d827a;
+  font-size: 13px;
+  margin-bottom: 12px;
+}
+
+.breadcrumb a {
+  color: #176b4b;
+  text-decoration: none;
+}
+
+.page-title {
+  margin: 0;
+  font-size: 40px;
+  line-height: 1.15;
+}
+
+.page-lead {
+  margin: 10px 0 0;
+  color: #547066;
+  font-size: 16px;
+}
+
+.panel {
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 8px 24px rgba(17, 57, 43, 0.04);
+}
+
+.store-woolworths,
+.cls-ww {
+  color: #176b4b;
+}
+
+.store-paknsave,
+.cls-pns {
+  color: #c9a227;
+}
+
+.store-newworld,
+.cls-nw {
+  color: #c41e3a;
+}
+
+.toast {
+  position: fixed;
+  left: 50%;
+  bottom: 28px;
+  transform: translateX(-50%);
+  background: #123c2d;
+  color: #fff;
+  border-radius: 999px;
+  padding: 12px 18px;
+  z-index: 20;
+}
